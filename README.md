@@ -1,11 +1,12 @@
 OpenSSL DLLs for PHP 7.0.27 with FIPS Compliant
 
 # Prerequisite:
--------------
+
+0. Windows 7 Recommended with 32 Bit
 1. PHP 7.0.27 version or 7.0.X
 
 # Setup OpenSSL FIPS Complaint Extension in PHP:
-----------------------------------------------
+
 1. Open PHP directory where you have installed, or may find the path where you have located php.exe and php.ini
 2. Copy and past below 2 files inside PHP main directory:
   - libeay32.dll
