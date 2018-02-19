@@ -21,11 +21,12 @@ OpenSSL DLLs for PHP 7.0.27 with FIPS Compliant
 5. Restart IIS Server
 6. If you would like to test openssl fips enabled extension, you may test by executing following lines:
 
-><?php
->
->openssl_fips_init(); 
->echo openssl_fips_enabled();
->
->?>
+```
+<?php
 
+openssl_fips_init(); 
+echo openssl_fips_enabled();
+
+?>
+```
 Cheers !
